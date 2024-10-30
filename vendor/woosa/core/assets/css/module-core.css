@@ -1,0 +1,507 @@
+/*
+|--------------------------------------------------------------------------
+| WIDTH
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .w-1000{
+   max-width: 1000px;
+   width: 100%;
+}
+.srft-style .w-800{
+   max-width: 800px;
+   width: 100%;
+}
+.srft-style .w-50p{
+   width: 50%;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| BACKGROUND COLOR
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .bg-white{
+   background: #fff;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| PADDING
+|--------------------------------------------------------------------------
+*/
+
+/*All*/
+.srft-style .p-0{
+   padding: 0;
+}
+.srft-style .p-5{
+   padding: 5px;
+}
+.srft-style .p-10{
+   padding: 10px;
+}
+.srft-style .p-15{
+   padding: 15px;
+}
+.srft-style .p-20{
+   padding: 20px;
+}
+.srft-style .p-25{
+   padding: 25px;
+}
+.srft-style .p-30{
+   padding: 30px;
+}
+
+
+/*Top*/
+.srft-style .pt-0{
+   padding-top: 0;
+}
+.srft-style .pt-5{
+   padding-top: 5px;
+}
+.srft-style .pt-10{
+   padding-top: 10px;
+}
+.srft-style .pt-15{
+   padding-top: 15px;
+}
+.srft-style .pt-20{
+   padding-top: 20px;
+}
+.srft-style .pt-25{
+   padding-top: 25px;
+}
+.srft-style .pt-30{
+   padding-top: 30px;
+}
+
+/*Right*/
+.srft-style .pr-0{
+   padding-right: 0;
+}
+.srft-style .pr-5{
+   padding-right: 5px;
+}
+.srft-style .pr-10{
+   padding-right: 10px;
+}
+.srft-style .pr-15{
+   padding-right: 15px;
+}
+.srft-style .pr-20{
+   padding-right: 20px;
+}
+.srft-style .pr-25{
+   padding-right: 25px;
+}
+.srft-style .pr-30{
+   padding-right: 30px;
+}
+
+/*Bottom*/
+.srft-style .pb-0{
+   padding-bottom: 0;
+}
+.srft-style .pb-5{
+   padding-bottom: 5px;
+}
+.srft-style .pb-10{
+   padding-bottom: 10px;
+}
+.srft-style .pb-15{
+   padding-bottom: 15px;
+}
+.srft-style .pb-20{
+   padding-bottom: 20px;
+}
+.srft-style .pb-25{
+   padding-bottom: 25px;
+}
+.srft-style .pb-30{
+   padding-bottom: 30px;
+}
+
+/*Left*/
+.srft-style .pl-0{
+   padding-left: 0;
+}
+.srft-style .pl-5{
+   padding-left: 5px;
+}
+.srft-style .pl-10{
+   padding-left: 10px;
+}
+.srft-style .pl-15{
+   padding-left: 15px;
+}
+.srft-style .pl-20{
+   padding-left: 20px;
+}
+.srft-style .pl-25{
+   padding-left: 25px;
+}
+.srft-style .pl-30{
+   padding-left: 30px;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| MARGIN
+|--------------------------------------------------------------------------
+*/
+
+/*All*/
+.srft-style .m-0{
+   margin: 0;
+}
+.srft-style .m-5{
+   margin: 5px;
+}
+.srft-style .m-10{
+   margin: 10px;
+}
+.srft-style .m-15{
+   margin: 15px;
+}
+.srft-style .m-20{
+   margin: 20px;
+}
+.srft-style .m-25{
+   margin: 25px;
+}
+.srft-style .m-30{
+   margin: 30px;
+}
+
+/*Top*/
+.srft-style .mt-0{
+   margin-top: 0;
+}
+.srft-style .mt-10{
+   margin-top: 10px;
+}
+.srft-style .mt-15{
+   margin-top: 15px;
+}
+.srft-style .mt-20{
+   margin-top: 20px;
+}
+.srft-style .mt-25{
+   margin-top: 25px;
+}
+.srft-style .mt-30{
+   margin-top: 30px;
+}
+
+/*Right*/
+.srft-style .mr-0{
+   margin-right: 0;
+}
+.srft-style .mr-5{
+   margin-right: 5px;
+}
+.srft-style .mr-10{
+   margin-right: 10px;
+}
+.srft-style .mr-15{
+   margin-right: 15px;
+}
+.srft-style .mr-20{
+   margin-right: 20px;
+}
+.srft-style .mr-25{
+   margin-right: 25px;
+}
+.srft-style .mr-30{
+   margin-right: 30px;
+}
+
+/*Bottom*/
+.srft-style .mb-0{
+   margin-bottom: 0;
+}
+.srft-style .mb-5{
+   margin-bottom: 5px;
+}
+.srft-style .mb-10{
+   margin-bottom: 10px;
+}
+.srft-style .mb-15{
+   margin-bottom: 15px;
+}
+.srft-style .mb-20{
+   margin-bottom: 20px;
+}
+.srft-style .mb-25{
+   margin-bottom: 25px;
+}
+.srft-style .mb-30{
+   margin-bottom: 30px;
+}
+
+/*Left*/
+.srft-style .ml-0{
+   margin-left: 0;
+}
+.srft-style .ml-5{
+   margin-left: 5px;
+}
+.srft-style .ml-10{
+   margin-left: 10px;
+}
+.srft-style .ml-15{
+   margin-left: 15px;
+}
+.srft-style .ml-20{
+   margin-left: 20px;
+}
+.srft-style .ml-25{
+   margin-left: 25px;
+}
+.srft-style .ml-30{
+   margin-left: 30px;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TABLE
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .bc-c{
+   border-collapse: collapse;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| FIELDS
+|--------------------------------------------------------------------------
+*/
+
+.srft-style select,
+.srft-style input{
+   width: 100% !important;
+   max-width: 300px !important;
+}
+.srft-style input[type="radio"],
+.srft-style input[type="checkbox"]{
+   width: 1rem !important;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| PAGINATION
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .pagination{
+   margin: 10px 0;
+   padding: 0;
+}
+   .srft-style .pagination li{
+      display: inline;
+   }
+
+
+
+/*
+|--------------------------------------------------------------------------
+| BORDER
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .bt-1{
+   border-top: 1px solid #ddd;
+}
+.srft-style .br-1{
+   border-right: 1px solid #ddd;
+}
+.srft-style .bb-1{
+   border-bottom: 1px solid #ddd;
+}
+.srft-style .bl-1{
+   border-left: 1px solid #ddd;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| VERTICAL-ALIGNMENT
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .va-t{
+   vertical-align: top;
+}
+.srft-style .va-m{
+   vertical-align: middle;
+}
+.srft-style .va-b{
+   vertical-align: bottom;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TEXT-ALIGNMENT
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .ta-l{
+   text-align: left;
+}
+.srft-style .ta-c{
+   text-align: center;
+}
+.srft-style .ta-r{
+   text-align: right;
+}
+.srft-style .ta-i{
+   text-align: inherit;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| ALERT BOX
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .alertbox{
+   padding: 15px;
+   clear: both;
+   border-width: 1px;
+   border-style: solid;
+}
+   .srft-style .alertbox ul{
+      margin: 0 0 0 20px;
+   }
+      .srft-style .alertbox ul li{
+         list-style: disc;
+      }
+         .srft-style .alertbox ul li > ul li{
+            list-style: square;
+         }
+
+.srft-style .alertbox--red{
+   background: #ffdcdc;
+   color: #862626;
+   border-color: #eaabab;
+}
+   .srft-style .alertbox--red > * {
+      color: #a30000 !important;
+   }
+
+.srft-style .alertbox--yellow{
+   border-color: #eccbaa;
+   background: #fffaf5;
+}
+
+
+
+/*
+|--------------------------------------------------------------------------
+| SORTABLE
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .sortable-list .ui-sortable-placeholder{
+   height: 50px;
+}
+
+.srft-style .sortable-list__item{
+   border: 1px solid #ddd;
+   padding: 10px 10px 10px 40px;
+   cursor: move;
+   background: #fbfbfb;
+   position: relative;
+}
+
+   .srft-style .sortable-list__item .dashicons{
+      position: absolute;
+      left: 5px;
+      top: 10px;
+      color: #8f8f8f;
+   }
+
+   .srft-style .sortable-list__item:hover{
+      background: #f6faff;
+   }
+
+   .srft-style .sortable-list__item-name{
+      font-weight: bold;
+      margin-bottom: 10px;
+   }
+   .srft-style .sortable-list__item-info{
+      font-size: 12px;
+      font-style: italic;
+      color: #8f8f8f;
+   }
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| TAB LIST
+|--------------------------------------------------------------------------
+*/
+
+.srft-tab-wrapper .nav-tab{
+   cursor: pointer;
+}
+
+.srft-tab-wrapper .nav-tab-active,
+.srft-tab-wrapper .nav-tab-active:focus,
+.srft-tab-wrapper .nav-tab-active:focus:active,
+.srft-tab-wrapper .nav-tab-active:hover {
+   border-bottom: 1px solid #ffffff;
+   background: #ffffff;
+}
+
+.srft-panel-wrapper .srft-panel{
+   display: none;
+}
+   .srft-panel-wrapper .srft-panel.srft-panel--active{
+      display: block;
+   }
+
+
+
+/*
+|--------------------------------------------------------------------------
+| MISC
+|--------------------------------------------------------------------------
+*/
+
+.srft-style .ajax-response.error,/*<--- this will be removed, do not use it anymore*/
+.srft-style .text-color--error *,
+.srft-style .text-color--error{
+   color: #a30000;
+}
+.srft-style .ajax-response.success,/*<--- this will be removed, do not use it anymore*/
+.srft-style .text-color--success *,
+.srft-style .text-color--success{
+   color: #46b450;
+}

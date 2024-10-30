@@ -1,0 +1,16 @@
+/*=============== STATUS ============*/
+
+.srft-product-status{
+
+   margin-bottom: 3px;
+   padding-bottom: 3px;
+   border-bottom: 1px solid #eaeaea;
+}
+
+   .srft-product-status em{
+      color: #a0a0a0;
+      font-size: 10px;
+      display: block;
+      clear: both;
+      line-height: 10px;
+   }

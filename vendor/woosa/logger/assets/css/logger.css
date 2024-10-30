@@ -1,0 +1,173 @@
+.srft-logs{
+   max-width: 800px;
+   width: 100%;
+   box-sizing: border-box;
+}
+   .srft-logs__item{
+      position: relative;
+      border: 1px solid #ddd;
+      border-top-width: 4px;
+      background: #f5f5f5;
+      margin-bottom: 10px;
+      color: #757575;
+   }
+   .srft-logs__item--active{
+      background: #fff;
+   }
+   .srft-logs__item::before{
+      font-family: dashicons;
+      display: inline-block;
+      font-size: 20px;
+      position: absolute;
+      top: 10px;
+      left: 5px;
+   }
+
+   .srft-logs__item:last-child{
+      margin-bottom: 0;
+   }
+
+   .srft-logs__item--error{
+      border-color: #dc32326e;
+   }
+   .srft-logs__item--warning{
+      border-color: #ffb90073;
+   }
+   .srft-logs__item--info{
+      border-color: #00a0d278;
+   }
+
+
+
+.srft-log-message{
+   padding: 20px 10px;
+   border-top: 1px dashed #ddd;
+   border-bottom: 1px dashed #ddd;
+}
+
+
+
+.srft-log-meta{
+   padding: 10px;
+}
+   .srft-log-meta::after{
+      content: '';
+      display: table;
+      clear: both;
+   }
+
+   .srft-log-date,
+   .srft-log-path,
+   .srft-log-code{
+      font-size: 12px;
+   }
+
+   .srft-log-code{
+      line-height: 25px;
+   }
+
+   .srft-log-path{
+      font-size: 11px;
+      font-style: italic;
+      margin-bottom: 10px;
+   }
+
+   .srft-log-action{
+      opacity: 0.8;
+   }
+
+
+.srft-log-actions__left,
+.srft-log-meta__left{
+   float: left;
+   width: 50%;
+}
+
+.srft-log-actions__right,
+.srft-log-meta__right{
+   float: right;
+   width: 50%;
+   text-align: right;
+}
+
+
+
+.srft-log-actions{
+   margin-bottom: 10px;
+}
+   .srft-log-actions::after{
+      content: '';
+      display: table;
+      clear: both;
+   }
+
+
+
+.srft-logs__item--error{
+   border-color: #dc3232;
+}
+   .srft-logs__item--error.srft-log-type{
+      color: #dc3232;
+   }
+
+.srft-logs__item--warning{
+   border-color: #ffb900;
+}
+   .srft-logs__item--warning.srft-log-type{
+      color: #ffb900;
+   }
+
+.srft-logs__item--info{
+   border-color: #00a0d2;
+}
+   .srft-logs__item--info.srft-log-type{
+      color: #00a0d2;
+   }
+
+.srft-log-message{
+   color: #444;
+}
+
+.srft-log-action{
+   opacity: 1;
+}
+
+
+
+.srft-log-notification{
+   position: fixed;
+   z-index: 9999;
+   width: 300px;
+   left: 10px;
+   bottom: 10px;
+   background: #fff8e5;
+   padding: 15px;
+   margin: 0;
+   border: 1px solid #ffb900;
+   border-left-width: 4px;
+   box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+   .srft-log-notification__name{
+      font-weight: bold;
+      margin-bottom: 5px;
+   }
+
+   .srft-log-notification__close{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+      color: #ffb900;
+   }
+
+   .srft-log-notification p{
+      margin: 0;
+      font-style: italic;
+   }
+
+
+.srft-action{
+   margin: 0 0 10px;
+   padding: 0 0 10px;
+   border-bottom: 1px solid #ddd;
+}
